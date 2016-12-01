@@ -1,0 +1,37 @@
+{
+  "name": "podcast_p",
+  "version": "0.0.1",
+  "description": "practice podcase integration with html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "build": "webpack -p",
+    "dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BizShuk/podcast_p.git"
+  },
+  "keywords": [
+    "html",
+    "podcast",
+    "node",
+    "npm",
+    "nvm",
+    "webpack"
+  ],
+  "author": "Shuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BizShuk/podcast_p/issues"
+  },
+  "homepage": "https://github.com/BizShuk/podcast_p#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "jquery": "^3.1.1"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}

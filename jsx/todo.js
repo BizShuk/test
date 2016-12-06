@@ -31,7 +31,10 @@ class Todo extends React.Component {
         this.serverRequest = $.get(this.props.source, function(datas){
             this.setState({items:datas});
         }.bind(this));
-    
+    }
+
+    componentWillUnmount(){
+        this.serverRequest = this.serverRequest.abort();
     }
 
     deleteItem(index){
